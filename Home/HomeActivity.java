@@ -304,7 +304,7 @@ public class HomeActivity extends AppCompatActivity implements OnMapReadyCallbac
         api.append("&radius=5000");
         api.append("&types=" + "parking|car_repair");
         api.append("&sensor=true");
-        api.append("&key=AIzaSyDMJgOYgIF2qVP7fOmvVeVOxjDkp8gWy74"); //key this is important we need to add the nearby location api
+        api.append("&key=USE YOUR KEY HERE"); //key this is important we need to add the nearby location api
         Log.d("Map", "url: " + api.toString());
 
         return api;
