@@ -93,7 +93,7 @@ public class SearchRouteActivity extends AppCompatActivity implements OnMapReady
         String mode = "mode=driving";
         String parameter = Origin + "&" + Destination + "&" + mode;
         //this is the main api key for direction
-        String url = "https://maps.googleapis.com/maps/api/directions/json?" + parameter + "&key=AIzaSyDMJgOYgIF2qVP7fOmvVeVOxjDkp8gWy74";
+        String url = "https://maps.googleapis.com/maps/api/directions/json?" + parameter + "&key=USE YOUR KEY";
         //https://maps.googleapis.com/maps/api/directions/json?origin=23.7746465,90.3944036&destination=23.7746465,90.3944036&mode=driving&key=AIzaSyAhje3XitH37m7iMYmVh0U1hnzsGmCLaSI
 
         return url;
